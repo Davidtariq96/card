@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#card{
+    width: 500px;
+    background-color: #FFFFFF;
+    margin: 2rem auto;
+    border-radius: 5px;
+    /* height: 170px; */
+    box-shadow: 0px 5px 20px rgba(210, 216, 236, 0.3);
+    position: relative;
+    padding: 30px 15px 50px 30px;
+}
+h1{
+    color: #7E7E7E;
+    font-size: 20px;
+    font-weight: 500;
+}
+h3{
+    font-size: 40px;
+    font-weight: 900;
+    color: #4F63FF;
+    padding-top: 1rem;
+}
+span{
+    color: #FF005C;
+    font-size: 20px;
+    padding-left: 1rem;
+}
+span i{font-size: 20px; margin-right: 0.5rem;}
+.icons{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#down{
+    color: #35BB63;
+}
+i{
+    font-size: 30px;
+}
+.fa-th-list{color: #666666;}
+
+img{
+    width: 30px; 
+    margin-left: 
+    0.5rem;
+}
+
+
+
+.flex-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.5rem;
+}
+ .hide-list .grey-box{
+     width: 470px;
+     height: 7px;
+     margin-left: -1rem;
+     border-radius: 7px;
+     position: absolute;
+     background: #F2F2F2;
+     top: 145px;
+     
+ }
+.box{
+    width: 65%;
+    background: #FF005C;
+    height: 7px;
+    border-radius: 7px;
+}
+
+.hide-list{
+    margin-bottom: -0.3rem;
+}
+
+#light{
+    display: none;
+}
+
+/* second variation */
+
+
+.parent-holder{
+    margin-top: -1.4rem;
+}
+.white-section{
+    width: 85px; 
+    background: #F2F2F2; 
+    height: 6px;
+    border-radius: 3px;
+    float: right;
+}
+.green-section{
+    width: 80px; 
+    background: #35BB63; 
+    height: 6px;
+    border-radius: 4px;
+    float: right;
+}
+.firstvar{
+    /* margin-top: 0.5rem; */
+    display: none;
+}
+
+.source{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+.source h5{
+    background: #9BA1B5;
+    border-radius: 50%;
+    padding: 1px 8px;
+    color: white;
+}
+.source span{
+    color: #9BA1B5;
+    font-size: 13px;
+    margin-right: 0.3rem;
+}
+.source h4{
+    color:  #7e828d;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #9BA1B5;
+    margin: 3rem -1rem -3.2rem -1.9rem;
+}
+.daily{
+    background: #F2F2F2;
+    padding: 10px 60px;
+    color: #182655;
+    border-radius: 0px 0px 0px 5px;
+}
+.monthly,.yearly{
+    color: #9BA1B5;
+    padding: 11px 60px;
+    border-left: 1px solid #9BA1B5;
+}
+.yearly{
+    margin-right: 1rem;
+    
+}
